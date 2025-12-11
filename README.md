@@ -11,10 +11,15 @@
 ## II Операционнная система
   На сайте luckfox можно найти 2 операционные системы - buildroot и ubuntu. Конечно, хочется поставить родную ubuntu, но это не путь траера, т.к. ubuntu не поддерживает использование sci камеры. Придется кастрированный buildroot, но, для наших задач и этго хватит с головой.
   С официального [сайта](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image) качаем драйверы и программу для прошивки, а также, образ [buildroot](https://drive.google.com/drive/folders/1_tR-Rj0fY5y_aLzWKHja7OtaYhUSg_NF?usp=drive_link) с официального гугл диска.
+  
   ![загрузка дров](https://wiki.luckfox.com/img/RV1106/Luckfox-Pico-RKDriver.png)
+  
   Теперь, можно прошить плату. ОСь придется ставить ее на карту памяти, т.к. иначе, код не сможет запуститься на плате, т.к. он занимает достаточно много места в оперативке.
+  
   ![soc_1](https://wiki.luckfox.com/img/RV1106/Flash/SocToolKit-RV1106.png)
+  
   ![soc_2](https://wiki.luckfox.com/img/RV1106/Flash/SocToolKit-MicroSD.png)
+  
 ## III Как тебя использовать?
 Теперь, после того, как вы поставили ОС на свою плату - можно наконец-то пощупать ее возможности. Подключиться к ней можно по ssh или через adb tools. Также, можно посмотреть изображение с камеры в vlc.
 ## IV Что дальше?
